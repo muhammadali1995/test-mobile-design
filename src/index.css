@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .cont {
+        @apply px-md mx-auto
+    }
+
+    .title {
+        @apply font-bold text-5xl text-white
+    }
+
+    .subtitle {
+        @apply font-bold text-4xl text-primary
+    }
+
+    .sectionTitle {
+        @apply mt-3 text-3xl font-semibold text-primary
+    }
+}
+
+body {
+    font-family: 'Noto Sans';
+}
