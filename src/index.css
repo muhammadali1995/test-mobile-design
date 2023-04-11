@@ -12,11 +12,19 @@
     }
 
     .subtitle {
-        @apply font-bold text-4xl text-primary
+        @apply font-bold text-[40px] text-primary
     }
 
     .sectionTitle {
         @apply mt-3 text-3xl font-semibold text-primary
+    }
+
+    .btn-light {
+        @apply bg-white py-7 border border-primary px-6 rounded-md text-primary font-semibold text-2xl
+    }
+
+    .btn-dark {
+        @apply bg-gray-medium border border-white py-7 px-6 rounded-md text-primary font-semibold text-2xl
     }
 }
 

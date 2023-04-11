@@ -13,12 +13,13 @@ module.exports = {
         blue: '#1E21FF'
       },
       padding: {
-        md: 50
+        'md': 50,
+        '8.5': '40.5px'
       },
       borderRadius: {
         lg: 20,
         md: 10
-      }
+      },
     },
   },
   plugins: [],
