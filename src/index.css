@@ -4,27 +4,27 @@
 
 @layer components {
     .cont {
-        @apply px-md mx-auto
+        @apply px-4 mx-auto
     }
 
     .title {
-        @apply font-bold text-5xl text-white
+        @apply font-bold text-base text-white
     }
 
     .subtitle {
-        @apply font-bold text-[40px] text-primary
+        @apply font-bold text-sm text-primary
     }
 
     .sectionTitle {
-        @apply mt-3 text-3xl font-semibold text-primary
+        @apply mt-1 text-xs font-semibold text-primary
     }
 
     .btn-light {
-        @apply bg-white py-7 border border-primary px-6 rounded-md text-primary font-semibold text-2xl
+        @apply bg-white py-2.5 border border-primary px-3 rounded-md text-primary font-semibold text-xs
     }
 
     .btn-dark {
-        @apply bg-gray-medium border border-white py-7 px-6 rounded-md text-primary font-semibold text-2xl
+        @apply bg-gray-medium border border-white py-2.5 px-3 rounded-md text-primary font-semibold text-xs
     }
 }
 
