@@ -9,11 +9,11 @@ export default function Lesson({ userData }) {
             <div className='ml-1.5'>
                 <h1 className='sectionTitle mt-0'>{userData.title}</h1>
                 <div className='flex items-center mt-1.5'>
-                    <img src={calendar} alt="calendar" />
+                    <img src={calendar} alt="calendar" className='w-4' />
                     <p className='ml-1.5 font-medium text-xs text-gray-650'>{userData.date}</p>
                 </div>
                 <div className='flex items-center mt-1.5'>
-                    <img src={location} alt="calendar" />
+                    <img src={location} alt="calendar" className='w-4' />
                     <p className='ml-1.5 font-medium text-xs text-gray-650'>{userData.location}</p>
                 </div>
                 <h2 className='sectionTitle'>Rp {userData.rp}</h2>
